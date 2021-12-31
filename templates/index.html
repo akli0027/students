@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -14,25 +15,25 @@
 
     <form class="app" method="POST" action="/predict">
         <div id="final_price">
-           Average Score:  {{ Average }}
+            Skor Rata-rata: {{ Rata-rata }}
 
         </div>
 
         <div class="table">
 
             <div class="wrap">
-                <div class="col">Gender</div>
+                <div class="col">Jenis kelamin</div>
                 <div class="value">
                     <select name="Gender" id="Gender">
-                        <option value="Female">Female</option>
-                        <option value="Male">Male</option>
+                        <option value="Female">Perempuan</option>
+                        <option value="Male">Pria</option>
                     </select>
                 </div>
             </div>
 
 
             <div class="wrap">
-                <div class="col">Race/ethnicity</div>
+                <div class="col">Ras/etnis</div>
 
                 <div class="value">
 
@@ -48,23 +49,23 @@
             </div>
 
             <div class="wrap">
-                <div class="col">Parental Level of Education
+                <div class="col">Tingkat Pendidikan Orang Tua
                 </div>
                 <div class="value">
                     <select name="Parental_Level_of_Education" id="Parental Level of Education">
-                        <option value="some high school">Some High School</option>
-                        <option value="high school">High School</option>
-                        <option value="associate's degree">Associate's Degree</option>
-                        <option value="master's degree">Master's Degree</option>
-                        <option value="some college">some college</option>
-                        <option value="bachelor's degree">bachelor's degree</option>
+                        <option value="some high school">Beberapa SMA (Some High School)</option>
+                        <option value="high school">SMA (High School)</option>
+                        <option value="associate's degree">Gelas Asosiasi (Associate's Degree)</option>
+                        <option value="master's degree">Gelas Master (Master's Degree)</option>
+                        <option value="some college">Beberapa Perguruan Tinggi (some college)</option>
+                        <option value="bachelor's degree">Sarjana (bachelor's degree)</option>
                     </select>
 
                 </div>
             </div>
 
             <div class="wrap">
-                <div class="col">Math Score</div>
+                <div class="col">Skor Matematika</div>
                 <div class="value">
                     <input type="text" name="Math_Score" required="required">
                 </div>
@@ -72,7 +73,7 @@
             </div>
 
             <div class="wrap">
-                <div class="col">Reading Score
+                <div class="col">Skor Membaca
                 </div>
                 <div class="value">
                     <input type="text" name="Reading_score" required="required">
@@ -81,7 +82,7 @@
             </div>
 
             <div class="wrap">
-                <div class="col">Writing Score
+                <div class="col">Skor Menulis
                 </div>
                 <div class="value">
                     <input type="text" name="Writing_score" required="required">
@@ -90,25 +91,25 @@
             </div>
     
             <div class="wrap">
-                <div class="col">Lunch
+                <div class="col">Makan siang
                 </div>
                 <div class="value">
 
                     <select name="Lunch" id="Lunch">
-                        <option value="standard">Standard</option>
-                        <option value="free/reduced">Free/Reduced</option>
+                        <option value="standard">Standar</option>
+                        <option value="free/reduced">Gratis/Dikurangi</option>
                     </select>
 
                 </div>
             </div>
 
             <div class="wrap">
-                <div class="col">test preparation course
+                <div class="col">kursus persiapan ujian
                 </div>
                 <div class="value">
                     <select name="test_preparation_course" id="test preparation course">
-                        <option value="None">None</option>
-                        <option value="Completed">Completed</option>
+                        <option value="None">tidak ada</option>
+                        <option value="Completed">Lengkap</option>
                         </option>
                     </select>
 
